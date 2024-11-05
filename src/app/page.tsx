@@ -108,7 +108,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col float-left w-3/12 h-auto bg-white py-2 px-2 space-y-4 items-center">
         <div className="w-52 h-40 py-7 object-fill">
-          <img src="alto.jpg" alt="Suzuki Alto" className="object-fill" width="50" />
+          <img src="alto.jpg" alt="Suzuki Alto" className="object-fill" />
         </div>
         <div className="flex items-center flex-col">
           <h2 className="font-serif text-blue-900 text-sm font-semibold hover:font-bold"> 
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col float-left w-3/12 h-auto bg-white py-2 px-2 space-y-4 items-center">
         <div className="w-52 h-40 py-9">
-          <img src="city.jpg" alt="Honda City" className="object-fill" width="50" />
+          <img src="city.jpg" alt="Honda City" className="object-fill" />
         </div >
         <div className="flex items-center flex-col text-justify" >
           <h2 className="font-serif text-blue-900 text-sm font-semibold hover:font-bold"> 
@@ -130,7 +130,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col float-left w-3/12 h-auto bg-white py-1 px-2 space-y-4 items-center space-y-">
         <div className="w-52 h-40 py-7">
-          <img src="civic.jpg" alt="Honda Civic" className="object-fill" width="50" />
+          <img src="civic.jpg" alt="Honda Civic" className="object-fill" />
         </div>
         <div className="flex items-center flex-col" >
           <h2 className="font-serif text-blue-900 text-sm font-semibold hover:font-bold"> 

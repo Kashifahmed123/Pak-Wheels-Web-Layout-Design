@@ -23,13 +23,13 @@ export default function Navbar() {
               
           </div>
           <div className="flex flex-row gap-x-10 mx-52 w-4/5 bg-gray-900 py-7 my-1">
-          <div className="border border-solid border-white w-40 ">
+          <div className="w-64 ">
               <Image
                 src="/PKW.jpg"
                 alt="Pak wheel logo"
                 color= "white"
-                width={32}
-                height={32}
+                width={500}
+                height={500}
               />
             </div>
             <div className="flex flex-row justify-around gap-x-5 w-full space-x-4">
