@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Corolla from "./ToyotaCorolla/page";
-
 
 export default function Home() {
   return (
@@ -98,7 +96,10 @@ export default function Home() {
         <div className="flex flex-row w-full h-auto space-x-6">
         <div className="flex flex-col float-left w-3/12 h-auto bg-white py-2 px-2 space-y-4 items-center">
         <div className="w-52 h-40 py-7">
-          <img src="corolla.jpg" alt="Toyota Corolla" className="object-fill" />
+          <Image src="/corolla.jpg" alt="Toyota Corolla" className="object-fill"
+          width={500}
+          height={500}
+          />
         </div>
         <div className="flex items-center flex-col">
           <Link href="/ToyotaCorolla" className="font-serif text-blue-900 text-sm font-semibold hover:font-bold" >Toyota Corolla</Link>
@@ -107,8 +108,11 @@ export default function Home() {
 
         </div>
         <div className="flex flex-col float-left w-3/12 h-auto bg-white py-2 px-2 space-y-4 items-center">
-        <div className="w-52 h-40 py-7 object-fill">
-          <img src="alto.jpg" alt="Suzuki Alto" className="object-fill" />
+        <div className="w-52 h-40 py-1 object-fill">
+          <Image src="/alto.jpg" alt="Suzuki Alto" className="object-fill" 
+          width={500}
+          height={500}
+          />
         </div>
         <div className="flex items-center flex-col">
           <h2 className="font-serif text-blue-900 text-sm font-semibold hover:font-bold"> 
@@ -119,7 +123,10 @@ export default function Home() {
         </div>
         <div className="flex flex-col float-left w-3/12 h-auto bg-white py-2 px-2 space-y-4 items-center">
         <div className="w-52 h-40 py-9">
-          <img src="city.jpg" alt="Honda City" className="object-fill" />
+          <Image src="/city.jpg" alt="Honda City" className="object-fill"
+          width={500}
+          height={500}
+          />
         </div >
         <div className="flex items-center flex-col text-justify" >
           <h2 className="font-serif text-blue-900 text-sm font-semibold hover:font-bold"> 
@@ -130,7 +137,10 @@ export default function Home() {
         </div>
         <div className="flex flex-col float-left w-3/12 h-auto bg-white py-1 px-2 space-y-4 items-center space-y-">
         <div className="w-52 h-40 py-7">
-          <img src="civic.jpg" alt="Honda Civic" className="object-fill" />
+          <Image src="/civic.jpg" alt="Honda Civic" className="object-fill" 
+          width={500}
+          height={500}
+          />
         </div>
         <div className="flex items-center flex-col" >
           <h2 className="font-serif text-blue-900 text-sm font-semibold hover:font-bold"> 
